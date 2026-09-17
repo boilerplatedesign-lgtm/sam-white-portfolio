@@ -1,0 +1,6 @@
+/* ── Webfonts ──────────────────────────────────────────────
+   Hanken Grotesk is used as the brand's neo-grotesque, standing
+   in for the Helvetica-style display type in the reference.
+   Loaded from Google Fonts. If you have licensed Helvetica Neue /
+   Neue Haas Grotesk binaries, drop them in and swap these rules. */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
