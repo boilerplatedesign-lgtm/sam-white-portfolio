@@ -73,8 +73,8 @@ const FAQS = [
   { q: 'Do you work with teams in-house?', a: 'Often. I embed with product and brand teams as a fractional creative director, or run focused workshops to get everyone aligned.' },
 ];
 
-const WORK_LAYOUT = 'editorial'; // 'editorial' | 'uniform'
-const CASE_HERO = 'block'; // 'block' | 'split' | 'centered'
+const WORK_LAYOUT = 'uniform'; // 'editorial' | 'uniform'
+const CASE_HERO = 'centered'; // 'block' | 'split' | 'centered'
 
 function pal(slug) {
   return {
@@ -289,7 +289,7 @@ function renderAbout() {
       <p class="about-lede">I collaborate with teams of every size, helping them find the simplest true version of what they are building — and then making it feel inevitable.</p>
 
       <div class="about-media">
-        <img src="assets/sam-portrait-square.png" alt="Sam White at work">
+        <img src="../shared/assets/sam-portrait-square.png" alt="Sam White at work">
         <p class="about-media-copy">I'm dedicated to crafting work that is both beautiful and genuinely useful — design that aligns with a client's real needs and holds up over the long term.</p>
       </div>
 
